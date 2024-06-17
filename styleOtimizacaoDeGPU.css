@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    position: relative;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+body {
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#titulo-header {
+    color: #DAA520;
+    font-size: 34px;
+    position: absolute;
+    right: 800px;
+    top: 7%;
+    transform: translateY(-50%);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+}
+
+#titulo-header {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    border: 5px solid #DAA520;
+    border-radius: 10px;
+    width: 80%;
+    height: 700px;
+}
+
+.video-text {
+    text-align: justify;
+    padding: 0 20%;
+    color: #DAA520;
+}
+
+.video-text h2,
+.video-text p {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#titulo-header {
+    color: #DAA520;
+    font-size: 34px;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+    transform: translateY(-50%);
+    font-family: "Poetsen One", sans-serif;
+}
+
+.tutorial {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tutorial h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.tutorial h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.tutorial p {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.tutorial img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
