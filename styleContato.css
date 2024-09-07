@@ -37,21 +37,21 @@ header {
 }
 
 body {
-    background-color: #272727; /* Cor de fundo cinza claro */
+    background-color: #272727; 
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
-    color: white; /* Define a cor padrão do texto */
+    font-family: Arial, sans-serif; 
+    color: white; 
 }
 
 #titulo-header {
     color: #DAA520;
-    font-size: 34px; /* Altere o valor conforme necessário para aumentar o tamanho do texto */
+    font-size: 34px; 
     position: absolute;
     text-align: center;
     top: 7%;
     transform: translateY(-50%);
-    font-family: "Poetsen One", sans-serif; /* Aplica a fonte Poetsen One */
+    font-family: "Poetsen One", sans-serif; 
     font-weight: bold;
 }
 
@@ -59,60 +59,60 @@ body {
     color: #DAA520;
     font-size: 34px;
     position: absolute;
-    right: 50%; /* Definindo a posição horizontal com uma porcentagem */
-    top: 58px; /* Definindo a posição vertical com um valor absoluto */
+    right: 50%; 
+    top: 58px; 
     transform: translateY(-50%);
     font-family: "Poetsen One", sans-serif;
 }
 
-/* Seu CSS aqui */
+
 
 section {
-    margin-top: 40px; /* Adiciona um espaçamento entre o cabeçalho e o formulário */
+    margin-top: 40px; 
 }
 
 section h2 {
-    font-size: 24px; /* Tamanho do título do formulário */
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    font-size: 24px; 
+    margin-bottom: 20px; 
 }
 
 form {
-    max-width: 600px; /* Define a largura máxima do formulário */
-    margin: 0 auto; /* Centraliza o formulário na página */
+    max-width: 600px; 
+    margin: 0 auto;
 }
 
 form label {
-    display: block; /* Faz com que os rótulos ocupem toda a largura do contêiner */
-    margin-bottom: 5px; /* Adiciona espaçamento abaixo de cada rótulo */
-    color: #DAA520; /* Cor dos rótulos */
+    display: block; 
+    margin-bottom: 5px;
+    color: #DAA520; 
 }
 
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 100%; /* Define a largura dos campos de entrada para ocupar toda a largura do contêiner */
-    padding: 10px; /* Adiciona um preenchimento interno nos campos de entrada */
-    margin-bottom: 10px; /* Adiciona espaçamento abaixo de cada campo de entrada */
-    border: 1px solid #888; /* Adiciona uma borda ao redor dos campos de entrada */
-    border-radius: 5px; /* Adiciona cantos arredondados aos campos de entrada */
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #888; 
+    border-radius: 5px; 
 }
 
 form textarea {
-    resize: vertical; /* Permite que o usuário redimensione a altura verticalmente */
+    resize: vertical; 
 }
 
 form input[type="submit"] {
-    background-color: #DAA520; /* Cor de fundo do botão de enviar */
-    color: white; /* Cor do texto do botão de enviar */
-    border: none; /* Remove a borda do botão de enviar */
-    padding: 15px 30px; /* Adiciona preenchimento interno ao botão de enviar */
-    font-size: 16px; /* Tamanho do texto do botão de enviar */
-    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
-    border-radius: 5px; /* Adiciona cantos arredondados ao botão de enviar */
-    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
+    background-color: #DAA520; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
 }
 
 form input[type="submit"]:hover {
-    background-color: #FFD700; /* Muda a cor de fundo do botão de enviar quando o mouse passa por cima */
+    background-color: #FFD700;
 }
 
